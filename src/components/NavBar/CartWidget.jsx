@@ -1,9 +1,7 @@
-import React from 'react'
-
 const CartWidget = () => {
   return (
     <div id='cartwidget'>
-        <img src="/img/cart.png" alt="" />
+        <img src="/img/carrito.png" alt="" />
         <p>1</p>
     </div>
   )

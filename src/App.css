@@ -1,35 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
+*{
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
-	list-style: none;
+	box-sizing: border-box;
+  	text-decoration: none;
+  	list-style: none;
 	font-family: 'Roboto', sans-serif;
 }
-#navbar{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: grey;
-}
+html, body {
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+	background-color: rgb(244, 244, 244);
+  }
 h1{
     color: white;
 }
 a{
     color: white;
-}
-#navbar ul {
-    display: flex;
-    gap: 10px;
-}
-#cartwidget{
-    display: flex;
-    align-items: flex-end;
-    color: white;
-}
-#cartwidget img{
-    width: 50px;
-    color: white;
+	text-decoration: none;
 }
