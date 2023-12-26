@@ -1,9 +1,0 @@
-.itemDetailContainer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: red;
-    gap: 10px;
-    width: 1500px;
-    border-radius: 10px;
-}
